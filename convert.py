@@ -1,12 +1,14 @@
+FILE_NAME = "file.png"
+
 from PIL import Image
 import pyperclip
+
 
 def o_to_hex(r, g, b):
     return "%x%x%x" % (r, g, b)
 
 
-
-handle = Image.open("george.jpg")
+handle = Image.open(FILE_NAME)
 image = handle.resize((32, 32)).convert("RGB")
 data = image.getdata()
 
