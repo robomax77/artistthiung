@@ -1,4 +1,4 @@
-FILE_NAME = "file.png"
+FILE_NAME = "https://i1.sndcdn.com/artworks-xygcn2L1yy7W86IA-suySVw-t500x500.png"
 
 from PIL import Image
 import pyperclip
